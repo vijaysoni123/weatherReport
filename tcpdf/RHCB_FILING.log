@@ -1,0 +1,59 @@
+[17-Aug-2017 08:19:42 Europe/Berlin] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 2
+[17-Aug-2017 08:19:42 Europe/Berlin] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 2
+[17-Aug-2017 08:19:42 Europe/Berlin] PHP Warning:  require_once(tcpdf/config/tcpdf_config.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:19:42 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'tcpdf/config/tcpdf_config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:19:51 Europe/Berlin] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 2
+[17-Aug-2017 08:19:51 Europe/Berlin] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 2
+[17-Aug-2017 08:19:51 Europe/Berlin] PHP Warning:  require_once(tcpdf/config/tcpdf_config.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:19:51 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'tcpdf/config/tcpdf_config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:20:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$pdf' (T_VARIABLE), expecting function (T_FUNCTION) in C:\xampp\htdocs\filing\tcpdf\table.php on line 54
+[17-Aug-2017 08:21:10 Europe/Berlin] PHP Warning:  require_once(tcpdf/config/tcpdf_config.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:21:10 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'tcpdf/config/tcpdf_config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:21:49 Europe/Berlin] PHP Warning:  require_once(tcpdf/config/tcpdf_config.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:21:49 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'tcpdf/config/tcpdf_config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:21:49 Europe/Berlin] PHP Warning:  require_once(tcpdf/config/tcpdf_config.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:21:49 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'tcpdf/config/tcpdf_config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:21:49 Europe/Berlin] PHP Warning:  require_once(tcpdf/config/tcpdf_config.php): failed to open stream: No such file or directory in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:21:49 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'tcpdf/config/tcpdf_config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined index: fromDate in C:\xampp\htdocs\filing\tcpdf\table.php on line 41
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined index: toDate in C:\xampp\htdocs\filing\tcpdf\table.php on line 41
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined index: bDesc in C:\xampp\htdocs\filing\tcpdf\table.php on line 42
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: key in C:\xampp\htdocs\filing\tcpdf\table.php on line 90
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: j in C:\xampp\htdocs\filing\tcpdf\table.php on line 99
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 100
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 100
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 100
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 101
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 101
+[17-Aug-2017 08:22:10 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 102
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: key in C:\xampp\htdocs\filing\tcpdf\table.php on line 90
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: j in C:\xampp\htdocs\filing\tcpdf\table.php on line 99
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 100
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 100
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 100
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 101
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 101
+[17-Aug-2017 08:22:36 Europe/Berlin] PHP Notice:  Undefined variable: data in C:\xampp\htdocs\filing\tcpdf\table.php on line 102
+[17-Aug-2017 08:24:42 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 52
+[17-Aug-2017 08:30:21 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\filing\tcpdf\table.php on line 17
+[17-Aug-2017 08:30:21 Europe/Berlin] PHP Notice:  Undefined index: TokenNo in C:\xampp\htdocs\filing\tcpdf\table.php on line 46
+[17-Aug-2017 08:30:46 Europe/Berlin] PHP Notice:  Undefined index: TokenNo in C:\xampp\htdocs\filing\tcpdf\table.php on line 44
+[17-Aug-2017 08:31:34 Europe/Berlin] PHP Fatal error:  Class 'MYPDF' not found in C:\xampp\htdocs\filing\tcpdf\table.php on line 59
+[17-Aug-2017 08:32:23 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 54
+[17-Aug-2017 08:32:23 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 135
+[17-Aug-2017 08:33:27 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 54
+[17-Aug-2017 08:33:27 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 135
+[17-Aug-2017 08:34:19 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 55
+[17-Aug-2017 08:34:19 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 136
+[17-Aug-2017 08:34:20 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 55
+[17-Aug-2017 08:34:20 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 136
+[17-Aug-2017 08:34:34 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 54
+[17-Aug-2017 08:34:34 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 135
+[17-Aug-2017 08:34:56 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 55
+[17-Aug-2017 08:34:56 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 136
+[17-Aug-2017 08:35:46 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 56
+[17-Aug-2017 08:35:46 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 137
+[17-Aug-2017 08:35:59 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 57
+[17-Aug-2017 08:35:59 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 138
+[17-Aug-2017 08:36:11 Europe/Berlin] PHP Warning:  get_object_vars() expects parameter 1 to be object, null given in C:\xampp\htdocs\filing\tcpdf\table.php on line 57
+[17-Aug-2017 08:36:11 Europe/Berlin] PHP Notice:  Undefined variable: dataFlag in C:\xampp\htdocs\filing\tcpdf\table.php on line 139
