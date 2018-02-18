@@ -1,0 +1,49 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond ${REQUEST_URI} ^.+$
+RewriteCond %{REQUEST_FILENAME} \.(gif|jpeg|jpg|png|js|css|swf|php|ico|txt|pdf|xml)$ [OR]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -l
+RewriteRule ^ - [L]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+DirectoryIndex index.php
+RewriteRule  ^weather?$  index.php  [NC,L]        
+RewriteRule  ^weatherReport?$  getWeaterReport.php  [NC,L]        
+RewriteRule ^([0-9]+)/?$  index.php?error=$1   [NC,L] 
+RewriteRule  ^weatherFunction?$  function.php  [NC,L] 
+RewriteRule  ^footer?$  footer.php  [NC,L] 
+RewriteRule  ^header?$  header.php  [NC,L] 
+RewriteRule  ^class-user?$  classes/userClass.php  [NC,L] 
+RewriteRule  ^config?$  classes/dbconfig.php  [NC,L] 
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php
+
+# supress php errors
+# php_flag display_startup_errors off
+# php_flag display_errors off
+# php_flag html_errors off
+
+
+# enable PHP error logging
+
+# prevent access to PHP error log
+<Files PHP_errors.log>
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+
+<IfModule php5_module>
+    php_flag session.cookie_httponly on
+</IfModule>
+
+# Security Auditing
+php_value session.cookie_httponly 1
